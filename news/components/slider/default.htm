@@ -1,0 +1,13 @@
+{% set slider = __SELF__.slider %}
+
+{% for item in slider %}
+    
+        <img src="{{ item.banner.thumb(300,400) }}" alt=""><br>
+        <a href="{{ item.link }}">{{ item.button }}</a>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Description</h3>
+            <p>{{ item.description }}</p>
+        </div>
+    </div>
+{% endfor %}

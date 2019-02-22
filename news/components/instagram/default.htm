@@ -1,0 +1,16 @@
+<div class="row box_6">
+    <div class="box_6_ti">
+        <h3>INSTAGRAM</h3>
+        <p>let's have a look what is behind the scenes</p>
+    </div>
+    <ul class="grid eight">
+        {% set items = instagram.items %}
+        {% for item in items|slice(0,8) %}
+        <li>
+            <div class="pic">
+                <a href=""><img src="{{item.images.low_resolution.url}}" alt="Instagram"></a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.30:
+    - 'Created table rendy_news_slider'
+    - builder_table_create_rendy_news_slider.php
+1.0.37:
+    - 'Updated table rendy_news_slider'
+    - builder_table_update_rendy_news_slider_2.php

@@ -1,0 +1,50 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    active:
+        label: Publish
+        span: auto
+        type: switch
+    description:
+        label: Description
+        size: ''
+        span: auto
+        type: textarea
+    banner:
+        label: 'File upload'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    link:
+        label: 'Link URL'
+        span: auto
+        placeholder: 'http://yourlink.com'
+        type: text
+tabs:
+    fields:
+        service:
+            label: Service
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        client:
+            label: Client
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        agency:
+            label: Agency
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        year:
+            label: Year
+            span: auto
+            type: number
+            tab: 'Tab 1'

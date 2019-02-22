@@ -1,0 +1,10 @@
+name: Slider
+form: $/rendy/news/models/slider/fields.yaml
+modelClass: rendy\news\Models\Slider
+defaultRedirect: rendy/news/slider
+create:
+    redirect: 'rendy/news/slider/update/:id'
+    redirectClose: rendy/news/slider
+update:
+    redirect: rendy/news/slider
+    redirectClose: rendy/news/slider

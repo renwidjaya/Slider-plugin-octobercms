@@ -1,0 +1,16 @@
+plugin:
+    name: 'rendy.news::lang.plugin.name'
+    description: 'rendy.news::lang.plugin.description'
+    author: Rendy
+    icon: oc-icon-fighter-jet
+    homepage: ''
+navigation:
+    Rendy:
+        label: Product
+        url: rendy/news/slider
+        icon: icon-archive
+        sideMenu:
+            side-menu-item3:
+                label: Slider
+                url: rendy/news/slider
+                icon: icon-sliders

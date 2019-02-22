@@ -1,0 +1,13 @@
+columns:
+    name:
+        label: Nama
+        type: text
+        searchable: true
+        sortable: true
+    link:
+        label: 'Link URL'
+        type: text
+    active:
+        label: Publish
+        type: switch
+        sortable: true
